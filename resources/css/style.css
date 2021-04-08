@@ -71,7 +71,7 @@ header{
 .front-content  p{
     position: relative;
     padding-top: 50px;
-    margin: 0;
+    /* margin: 0; */
     text-align: left;
 
 }
@@ -97,9 +97,10 @@ header{
 }
 
 .bottom-comment{
-    margin-top:25%;
+  min-height: 80vh;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
